@@ -37,7 +37,7 @@ helloworld
 方式一(推荐):
 
 ```shell
-git clone https://github.com/ztino/jd_seckill.git
+git clone https://github.com/levanduu/maotai.git
 cd jd_seckill
 go get
 ```
@@ -45,12 +45,12 @@ go get
 方式二:
 
 ```shell
-go get github.com/ztino/jd_seckill
+go get github.com/levanduu/maotai
 ```
 
 ## 使用
 
-> [下载](https://github.com/ztino/jd_seckill/releases) 对应平台的可执行文件，解压，终端进入该目录。
+> [下载](https://github.com/levanduu/maotai/releases) 对应平台的可执行文件，解压，终端进入该目录。
 
 ### 登录
 执行以下命令按照提示操作:
@@ -104,7 +104,7 @@ jd_seckill version
 
 (1)`eid`和`fp`找个普通商品随便下单,然后抓包就能看到,这两个值可以填固定的
 > 随便找一个商品下单，然后进入结算页面，打开浏览器的调试窗口，切换到控制台Tab页，在控制台中输入变量`_JdTdudfp`，即可从输出的Json中获取`eid`和`fp`。  
-> 不会的话参考issue https://github.com/ztino/jd_seckill/issues/2
+> 不会的话参考issue https://github.com/levanduu/maotai/issues/2
 
 (2)`sku_id`,`default_user_agent`
 > `sku_id`已经按照茅台的填好。
